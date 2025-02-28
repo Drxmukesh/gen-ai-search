@@ -20,8 +20,8 @@ ai-search-engine
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd ai-search-engine
+   https://github.com/Drxmukesh/gen-ai-search.git
+   cd gen-ai-search
    ```
 
 2. Install the required dependencies:
