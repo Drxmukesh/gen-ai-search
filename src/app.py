@@ -1,6 +1,6 @@
 import streamlit as st
 from data_collection import collect_data
-from summarization import summarize_data
+from summarization import generate_summary
 from analysis import analyze_data
 from output_generation import generate_output
 
@@ -15,7 +15,7 @@ def main():
             st.write("Collecting data...")
             data = collect_data(query)
             st.write("Data collected. Summarizing...")
-            summary = summarize_data(data)
+            summary = generate_summary(data, "C:/Users/DRx/Documents/gen-ai-search/models/your_model.h5")  # Update with your actual model path
             st.write("Data summarized. Analyzing...")
             analysis_results = analyze_data(summary)
             st.write("Analysis complete. Generating output...")

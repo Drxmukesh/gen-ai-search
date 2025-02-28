@@ -18,3 +18,6 @@ def duckduckgo_search(query):
         results.append({'title': title, 'link': link})
 
     return results
+
+def collect_data(query):
+    return duckduckgo_search(query)
