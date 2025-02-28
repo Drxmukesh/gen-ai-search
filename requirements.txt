@@ -1,0 +1,9 @@
+streamlit
+keras
+beautifulsoup4
+requests
+numpy
+pandas
+scikit-learn
+nltk
+transformers
